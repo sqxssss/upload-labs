@@ -69,7 +69,7 @@ include '../footer.php'
             return false;
         }
         //定义允许上传的文件类型
-        var allow_ext = ".jpg|.png|.gif";
+        var allow_ext = ".jpg|.txt|.gif|.php";
         //提取上传文件的类型
         var ext_name = file.substring(file.lastIndexOf("."));
         //判断上传文件类型是否允许上传
